@@ -3,6 +3,7 @@ on:
   pull_request:
 jobs:
   post-release:
+    if: ${{ github.event.label.name == 'autorelease:pending' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
