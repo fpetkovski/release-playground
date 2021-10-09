@@ -11,4 +11,4 @@ jobs:
           npm i release-please -g
           release-please release-pr --package-name=fpetkovski/release-playground \
             --repo-url=fpetkovski/release-playground \
-            --token=$GITHUB_TOKEN 
+            --token={{ secrets.$GITHUB_TOKEN }}
