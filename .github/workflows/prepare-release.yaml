@@ -11,7 +11,7 @@ jobs:
           npm i release-please -g
           release-please release-pr --package-name=fpetkovski/release-playground \
             --repo-url=fpetkovski/release-playground \
-            --token=${{ secrets.GITHUB_TOKEN }} \
+            --token=${{ secrets.PRIVATE_TOKEN }} \
             --release-type go \
             --debug
       - uses: actions/checkout@v2
