@@ -6,7 +6,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: make generate
+      - name: Update version
+        run: echo git rev-parse --abbrev-ref HEAD | cut -d '-' -f 2 > VERSION
+      - name: Run generate
+        run: make generate
       - name: Push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
