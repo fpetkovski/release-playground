@@ -7,8 +7,7 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
-      - uses: ubuntu-latest
-        run: |
+      - run: |
           release-please release-pr --package-name=fpetkovski/release-playground" \
             --repo-url=fpetkovski/release-playground \
             --token=$GITHUB_TOKEN 
