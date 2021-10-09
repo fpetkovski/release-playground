@@ -2,7 +2,7 @@ name: post-prepare-please
 on:
   pull_request:
 jobs:
-  post-release:
+  prepare-release-generate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
