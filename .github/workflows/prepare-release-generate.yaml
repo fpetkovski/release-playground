@@ -2,6 +2,7 @@ name: post-prepare-please
 on:
   pull_request:
 jobs:
+  if: contains(github.event.pull_request.labels.*.name, 'autorelease:pending')
   prepare-release-generate:
     runs-on: ubuntu-latest
     steps:
