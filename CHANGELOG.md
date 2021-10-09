@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.5.0](https://www.github.com/fpetkovski/release-playground/compare/v0.4.0...v0.5.0) (2021-10-09)
+
+
+### Features
+
+* f8 ([da5ac07](https://www.github.com/fpetkovski/release-playground/commit/da5ac07a4d5490adf972339350ed62f438beda48))
+* fix yaml ([8ebd8ff](https://www.github.com/fpetkovski/release-playground/commit/8ebd8ffc990e6ddbe7f8b57cc40a86ad26e8203b))
+* run generate on autorelease PRs ([b686351](https://www.github.com/fpetkovski/release-playground/commit/b686351808a926fae2d402b5833fdb70a777cf29))
+* run generate on autorelease PRs ([1047a44](https://www.github.com/fpetkovski/release-playground/commit/1047a44bb7b6b276781f2d64fc5e927bd89f2c7e))
+
+
+### Bug Fixes
+
+* tag ([af2f0c2](https://www.github.com/fpetkovski/release-playground/commit/af2f0c2b97dbae519461c32fafd6c2be728353e2))
+
 ## [0.4.0](https://www.github.com/fpetkovski/release-playground/compare/v0.3.0...v0.4.0) (2021-10-09)
 
 
