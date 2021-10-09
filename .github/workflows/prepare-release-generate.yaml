@@ -1,4 +1,4 @@
-name: post-prepare-please
+name: prepare-please-generate
 on:
   push:
     branches:
