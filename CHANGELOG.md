@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.4.0](https://www.github.com/fpetkovski/release-playground/compare/v0.3.0...v0.4.0) (2021-10-09)
+
+
+### Features
+
+* add linter ([a827514](https://www.github.com/fpetkovski/release-playground/commit/a8275143c28d106e76d944f54e0993307e413429))
+* another feature ([baab9f5](https://www.github.com/fpetkovski/release-playground/commit/baab9f530a5b0a1dd4e406ab965ef7131c447468))
+
 ## [0.3.0](https://www.github.com/fpetkovski/release-playground/compare/v0.2.0...v0.3.0) (2021-10-09)
 
 
