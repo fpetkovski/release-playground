@@ -11,6 +11,14 @@
 
 * amazing API coming up yolololo ([c3a716a](https://www.github.com/fpetkovski/release-playground/commit/c3a716a7c94e2042a6a5a563f56f2b4e7d9e7861))
 
+### [0.6.3](https://www.github.com/fpetkovski/release-playground/compare/v0.6.2...v0.6.3) (2021-10-09)
+
+
+### Bug Fixes
+
+* patch some random nonsense ([#12](https://www.github.com/fpetkovski/release-playground/issues/12)) ([f0a6f77](https://www.github.com/fpetkovski/release-playground/commit/f0a6f77c29bf1b2684c89249eea079f305cd8b0e))
+* run on v0.6 ([24ea866](https://www.github.com/fpetkovski/release-playground/commit/24ea86617777d0ca2c1037c6686be3d4fded5e07))
+
 ### [0.6.2](https://www.github.com/fpetkovski/release-playground/compare/v0.6.1...v0.6.2) (2021-10-09)
 
 
