@@ -1,5 +1,16 @@
 # Changelog
 
+### [0.6.2](https://www.github.com/fpetkovski/release-playground/compare/v0.6.1...v0.6.2) (2021-10-09)
+
+
+### Bug Fixes
+
+* use github action token ([8d529fe](https://www.github.com/fpetkovski/release-playground/commit/8d529fe07c4153d7a0a6c7068ec2ac304138ebe9))
+* use github action token ([819158a](https://www.github.com/fpetkovski/release-playground/commit/819158a66ac496a7042363a7bb2ac554d35ec3d8))
+* use github action token ([1a959e1](https://www.github.com/fpetkovski/release-playground/commit/1a959e1f12aaf5bd96d24e0fb7bd0a9a4cbf5eae))
+* use github action token ([58bff6c](https://www.github.com/fpetkovski/release-playground/commit/58bff6c7dde8945d8b68d2415e39cb3b55320e82))
+* use github action token ([280b420](https://www.github.com/fpetkovski/release-playground/commit/280b4204d571ce82fa3b61a81ba8908e512c5e0d))
+
 ### [0.6.1](https://www.github.com/fpetkovski/release-playground/compare/v0.6.0...v0.6.1) (2021-10-09)
 
 
