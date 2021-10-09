@@ -1,8 +1,9 @@
 permissions:
   actions: write
-  # checks: write
+  checks: write
   pull-requests: write
-  
+  repository-projects: write
+
 name: prepare-release
 on:
   push:
