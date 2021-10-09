@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.3.0](https://www.github.com/fpetkovski/release-playground/compare/v0.2.0...v0.3.0) (2021-10-09)
+
+
+### Features
+
+* add feature 3 ([#3](https://www.github.com/fpetkovski/release-playground/issues/3)) ([b162a5e](https://www.github.com/fpetkovski/release-playground/commit/b162a5e42a2c880e4e12c90db1256db9197c9d06))
+* automate releases ([31e2971](https://www.github.com/fpetkovski/release-playground/commit/31e29718c4cc4e80d6f62c1a6eacc1d762662738))
+* update version in CI ([5c3c8c7](https://www.github.com/fpetkovski/release-playground/commit/5c3c8c7b3948bbba9c3d8e7cee02fff9f5b30acc))
+* update version in CI ([21925ee](https://www.github.com/fpetkovski/release-playground/commit/21925eef98da6eb263497e089cf3e0f3fefe9aae))
+* update version in CI ([779010a](https://www.github.com/fpetkovski/release-playground/commit/779010a594dbe06665e8881343da7c1cba5ad22e))
+* update version in CI ([f39055b](https://www.github.com/fpetkovski/release-playground/commit/f39055bed9856b5928a46929cd29c29933ba37ac))
+* update version in CI ([72b01e5](https://www.github.com/fpetkovski/release-playground/commit/72b01e590fd09600ac55545720d1830d801725f1))
+
+
+### Bug Fixes
+
+* ci ([48d9ab3](https://www.github.com/fpetkovski/release-playground/commit/48d9ab30e3d7d2147665a85c233d12db5b962653))
+
 ## [0.2.0](https://www.github.com/fpetkovski/release-playground/compare/v0.1.0...v0.2.0) (2021-10-09)
 
 
