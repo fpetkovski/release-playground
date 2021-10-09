@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Update version
-        run: echo ${GITHUB_HEAD_REF} | cut -d '-' -f 2 > VERSION
+        run: echo ${GITHUB_REF#refs/heads/} | cut -d '-' -f 2 > VERSION
       - name: Run generate
         run: make generate
       - name: Push changes
