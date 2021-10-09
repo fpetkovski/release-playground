@@ -1,7 +1,9 @@
+name: lint
 on:
   pull_requests:
-  branches:
-  - "main"
+  push:
+    branches:
+    - "main"
 jobs:
   commitlint:
     runs-on: ubuntu-latest
