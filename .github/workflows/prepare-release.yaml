@@ -1,3 +1,6 @@
+permissions:
+  actions: write
+
 name: prepare-release
 on:
   push:
@@ -11,7 +14,7 @@ jobs:
           npm i release-please -g
           release-please release-pr --package-name=fpetkovski/release-playground \
             --repo-url=fpetkovski/release-playground \
-            --token=${{ secrets.PRIVATE_TOKEN }} \
+            --token=${{ secrets.GITHUB_TOKEN }} \
             --release-type go \
             --debug
   release:
@@ -21,7 +24,7 @@ jobs:
           npm i release-please -g
           release-please github-release \
             --repo-url=fpetkovski/release-playground \
-            --token=${{ secrets.PRIVATE_TOKEN }} \
+            --token=${{ secrets.GITHUB_TOKEN }} \
             --release-type go \
             --debug
             
