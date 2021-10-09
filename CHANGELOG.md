@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.6.0](https://www.github.com/fpetkovski/release-playground/compare/v0.5.0...v0.6.0) (2021-10-09)
+
+
+### Features
+
+* awesome feature ([#6](https://www.github.com/fpetkovski/release-playground/issues/6)) ([f4d2b9c](https://www.github.com/fpetkovski/release-playground/commit/f4d2b9ca450bd705aefef3ebb9fb4c3c3a8f310c))
+
+
+### Bug Fixes
+
+* fix action name ([d5a86c1](https://www.github.com/fpetkovski/release-playground/commit/d5a86c1675e8d639b03f8cf010a0f58113b3ba2b))
+* fix name of github action ([74d45c5](https://www.github.com/fpetkovski/release-playground/commit/74d45c5764dd81359b69e7ca84152dfe1a0e25bb))
+* fix version ([bf3b137](https://www.github.com/fpetkovski/release-playground/commit/bf3b137f00a9fc87d6f034f42a47eb7d35d12796))
+* run generate on release branches ([16725f1](https://www.github.com/fpetkovski/release-playground/commit/16725f142148a93755bf98ca949dd7d3ce0f2f54))
+
 ## [0.5.0](https://www.github.com/fpetkovski/release-playground/compare/v0.4.0...v0.5.0) (2021-10-09)
 
 
