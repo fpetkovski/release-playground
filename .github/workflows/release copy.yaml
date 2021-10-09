@@ -1,0 +1,12 @@
+name: post-prepare-please
+on:
+  pull_requests:
+jobs:
+  post-release:
+    if: ${{ github.event.label.name == 'autorelease:pending' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: make generate
+      - echo "$GITHUB_REF"
+      
