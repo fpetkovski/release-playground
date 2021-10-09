@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.6.1](https://www.github.com/fpetkovski/release-playground/compare/v0.6.0...v0.6.1) (2021-10-09)
+
+
+### Bug Fixes
+
+* annoying bugfix ([7a11a6c](https://www.github.com/fpetkovski/release-playground/commit/7a11a6c6f66ec1624802a6fee663eb1cc563049c))
+
 ## [0.6.0](https://www.github.com/fpetkovski/release-playground/compare/v0.5.0...v0.6.0) (2021-10-09)
 
 
