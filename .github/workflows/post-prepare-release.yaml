@@ -7,9 +7,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: make generate
-      - run: echo "$GITHUB_REF"
-      - run: cat generated
-      - run: cat CHANGELOG.md
       - name: Push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
