@@ -1,3 +1,3 @@
 .PHONY: generate
 generate:
-	@echo "generated content $(shell date)" > generated
+	echo "Generated content for version: $(shell cat VERSION)" > generated
