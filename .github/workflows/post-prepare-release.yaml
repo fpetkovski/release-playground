@@ -1,6 +1,6 @@
 name: post-prepare-please
 on:
-  pull_requests:
+  pull_request:
 jobs:
   post-release:
     if: ${{ github.event.label.name == 'autorelease:pending' }}
