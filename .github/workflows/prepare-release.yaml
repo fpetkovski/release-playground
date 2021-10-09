@@ -1,0 +1,26 @@
+name: release-please
+on:
+  push:
+    branches:
+      - main
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          npm i release-please -g
+          release-please release-pr --package-name=fpetkovski/release-playground \
+            --repo-url=fpetkovski/release-playground \
+            --token=${{ secrets.GITHUB_TOKEN }} \
+            --release-type go \
+            --debug
+      - uses: actions/checkout@v2
+        with:
+          # Repository name with owner. For example, actions/checkout
+          # Default: ${{ github.repository }}
+          repository: ''
+
+          # The branch, tag or SHA to checkout. When checking out the repository that
+          # triggered a workflow, this defaults to the reference or SHA for that event.
+          # Otherwise, uses the default branch.
+          ref: ''
