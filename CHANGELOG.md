@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.0.0](https://www.github.com/fpetkovski/release-playground/compare/v0.6.2...v1.0.0) (2021-10-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* amazing API coming up yolololo
+
+### Features
+
+* amazing API coming up yolololo ([c3a716a](https://www.github.com/fpetkovski/release-playground/commit/c3a716a7c94e2042a6a5a563f56f2b4e7d9e7861))
+
 ### [0.6.3](https://www.github.com/fpetkovski/release-playground/compare/v0.6.2...v0.6.3) (2021-10-09)
 
 
