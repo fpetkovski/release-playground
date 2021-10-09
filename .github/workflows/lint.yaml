@@ -9,9 +9,5 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - name: Dump GitHub context
-        env:
-          GITHUB_CONTEXT: ${{ toJson(github) }}
-        run: echo "$GITHUB_CONTEXT"
       - uses: actions/checkout@v2
       - run: make generate --always-make && git diff --exit-code
