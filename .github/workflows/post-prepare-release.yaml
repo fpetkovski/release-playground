@@ -7,5 +7,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: make generate
-      - echo "$GITHUB_REF"
+      - run: echo "$GITHUB_REF"
+      - run: cat generated
       
